@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Jaztyn Zyrelle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">IPT1 Portfolio</div>
+    <nav>
+      <ul>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="text-box">
+        <h1>Hello, it's me <span>Jaztyn Zyrelle L. Poon</span></h1>
+        <p>I'm a frontend developer passionate and skilled IT professional.</p>
+        <h2><span>My Hobbies are:</span></h2>
+        <ul>
+            <li>Watching movies</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+            <li>Writing</li>
+            <li>Playing video games</li>
+        </ul>
+      </div>
+      <div class="image-box">
+        <img src="1.jpg" alt="Your Photo">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/jaztynzyrelle.poon.5?mibextid=ZbWKwL" target="_blank" class="facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/zy_poon?igsh=aGN4Y2w2Nmx5bWQ=" target="_blank" class="instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://youtube.com/@zyrellepoon7799?si=wdCF1COd2KA7LL4P" target="_blank" class="youtube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const textBox = document.querySelector(".text-box");
+    
+      setTimeout(() => {
+        textBox.classList.add("fade-in");
+      }, 100); 
+    });
+  </script>
+</body>
+</html>
